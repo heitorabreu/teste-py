@@ -84,7 +84,7 @@ def measure_time(sort_function, data):
 
 # Main
 if __name__ == "__main__":
-    data_size = 100000  # Tamanho dos dados
+    data_size = 1000000  # Tamanho dos dados
     data = generate_data(data_size)
 
     algorithms = {
